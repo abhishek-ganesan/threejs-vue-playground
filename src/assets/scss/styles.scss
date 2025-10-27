@@ -1,0 +1,28 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+body {
+  // background: black;
+  --color-text: #fff;
+  --color-link-hover: #fff;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.particleContent {
+  overflow: hidden;
+}
+.viewer-container {
+  position: fixed;
+  top: 0;
+}
